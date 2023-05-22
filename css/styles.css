@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header div {
+  background-color: #E6E6E6;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.title {
+  background-color: #C4C4C4;
+  color: #005677;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.principal-title {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Main */
+
+/* Personal Data */
+
+.white-div {
+  height: 100px;
+}
+
+.secondary-title {
+  padding-left: 20px;
+}
+
+li {
+  padding: 5px 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+li span {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Study information */
+
+.description-box {
+  padding-left: 28px;
+  display: flex;
+  gap: 10px;
+}
+
+.year {
+  width: 90px;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #005677;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.copyright {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 17px;
+  margin: 0;
+}
